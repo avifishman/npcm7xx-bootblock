@@ -11,7 +11,7 @@ Date:    April 2017
 PACKAGE CONTENTS
 ----------------
 This package contains the following files/folders:
-- BootBlock_RelLetter.txt          - This release letter
+- bootblock-release-letter.txt     - This release letter
 - Poleg_bootblock.bin              - Output image bin
 - Images\crc.log                   - Output image crc
 
