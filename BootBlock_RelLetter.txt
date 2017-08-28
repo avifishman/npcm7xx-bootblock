@@ -1,0 +1,38 @@
+# npcm7xx-bootblock
+Nuvoton Technology Corporation
+NPCM750 (Poleg) BootBlock Release Letter
+Copyright (c) 2013-2017 Nuvoton Technology Corporation. All Rights Reserved.
+
+Binary bootblock for nuvoton npcm7xx BMC chips
+Release Letter
+Version: 10.06.08
+Date:    April 2017
+
+PACKAGE CONTENTS
+----------------
+This package contains the following files/folders:
+- BootBlock_RelLetter.txt          - This release letter
+- Poleg_bootblock.bin              - Output image bin
+- Images\crc.log                   - Output image crc
+
+
+DESCRIPTION
+-----------
+This package contains the Nuvoton Poleg bootBlock for the NPCM7xx BMC chips.
+This package is released in beta quality.
+The BootBlock meets the security requirements as specified in SecureBootNuvoton_201401216.docx
+
+Inside the binary there is a change log at offset 0x40 of Poleg_bootblock.bin in text format (in addition to the version at offset 0xF4).
+If the BootBlock is loaded to chip you can view it via u-boot or JTAG at address 0x80000240.
+
+
+REQUIREMENTS
+------------
+Hardware:
+- A Nuvoton NPCM7xx Silicon  BMC device.
+
+
+INSTALLATION PROCEDURE
+----------------------
+After compilation (see HowToBuild.txt) program   deliverables\bootblock\Images\Poleg_bootblock.bin 
+to flash via the programming scripts or other means.
