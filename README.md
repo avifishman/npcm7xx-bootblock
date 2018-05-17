@@ -17,17 +17,7 @@ PACKAGE CONTENTS
 ----------------
 This package contains the following files/folders:
 - BootBlock_Sources_RelLetter.txt                     - This release letter
-- Sources\Src\                                        - Main source files
-- Sources\SWC_DEFS\                                   - definition source files
-- Sources\SWC_HAL\                                    - HW drivers files
-- Sources\Build.bat, clean.bat, makefile              - Building batch files
-- Sources\HowToBuild.txt                              - How to build description
-- Images\Poleg_bootblock.asm                          - Output image asm
-- Images\Poleg_bootblock.elf                          - Output image elf
-- Images\Poleg_bootblock.dat                          - Output image dat
 - Images\Poleg_bootblock.bin                          - Output image bin
-- Images\Poleg_bootblock.axf                          - Output image axf
-- Images\crc.log                                      - Output image crc
 
 
 DESCRIPTION
